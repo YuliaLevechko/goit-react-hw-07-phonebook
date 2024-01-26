@@ -1,0 +1,38 @@
+.lable {
+    display: block;
+    margin-bottom: 20px;
+}
+
+.contact_inp {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    width: 90%;
+    border: 1px solid rgba(33, 33, 33, 0.2);
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.sabmit_contact {
+    margin-top: 20px;
+    font-size: 15px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.15);
+    cursor: pointer;
+    padding: 6px;
+    width: 120px;
+    background-color: rgb(107, 98, 184);
+    border: 1px;
+    border-radius: 5px;
+    color: white;
+    transition: all, 500ms;
+    margin-bottom: 15px;
+}
+
+.sabmit_contact:hover,
+.sabmit_contact:focus {
+    opacity: 1;
+    transform: scale(1.1);
+    background-color: #87aaf6;
+}

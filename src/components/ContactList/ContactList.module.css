@@ -1,0 +1,33 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.contact_item {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn {
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.15);
+    cursor: pointer;
+    padding: 5px;
+    background-color: rgb(254, 170, 170);
+    border: 1px;
+    border-radius: 5px;
+    color: white;
+    transition: all 500ms;
+}
+
+.btn:hover,
+.btn:focus {
+    opacity: 1;
+    transform: scale(1.1);
+    background-color: #c83033;
+}
+
+.contact_list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px 0px;
+}
